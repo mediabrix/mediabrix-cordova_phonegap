@@ -8,7 +8,7 @@
  * After running that command, the mb_plugin will be added to your project.
   
  ## Initialization 
- The view that would attempt to load an ad must call resume function whenever view is presented:
+ The view that would attempt to load an ad must call the resume function whenever the view is presented:
  ```
   initialize: function() {
     document.addEventListener('deviceready', this.onDeviceReady, false);
@@ -21,7 +21,7 @@
   }
  ```
  
- That same view should call the pause function whenever view disappears:
+ That same view should call the pause function whenever the view disappears:
  ```
    onPause:function() {
     window.cordova.plugins.MediaBrix.pause();
@@ -59,7 +59,7 @@ window.cordova.plugins.MediaBrix.show('ZONE');
 ```
 
 ## Ad Events
-Callback methods made from the sdk. 
+Callback methods made from the sdk:
 ```
 onStarted: function(e){
 // MediaBrix SDK has been initialized successfully, and can now attempt to load ads. DOES NOT HAVE A ZONE!!
