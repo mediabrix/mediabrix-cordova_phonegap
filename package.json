@@ -1,0 +1,26 @@
+{
+  "name": "MediaBrix",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "mb_plugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mediabrix/mediabrix-phonegap.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mediabrix/mediabrix-phonegap/issues"
+  },
+  "homepage": "https://github.com/mediabrix/mediabrix-phonegap#readme"
+}
